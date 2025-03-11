@@ -37,10 +37,10 @@ class HotelBooking {
     }
 
     // Copy Constructor
-    public HotelBooking(HotelBooking otherBooking) {
-        this.HotelGuestName = otherBooking.HotelGuestName;
-        this.HotelRoomType = otherBooking.HotelRoomType;
-        this.nights = otherBooking.nights;
+    public HotelBooking(HotelBooking PreviousBooking) {
+        this.HotelGuestName = PreviousBooking.HotelGuestName;
+        this.HotelRoomType = PreviousBooking.HotelRoomType;
+        this.nights = PreviousBooking.nights;
     }
 
     // Method to display booking details
